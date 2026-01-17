@@ -1,0 +1,37 @@
+.descriptionContainer{
+  display: block;
+  width: 20vw;
+  height: auto;
+  min-height: 650px;
+  padding-top: 2.5vh;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+  background-color: rgb(3, 3, 3);
+  border: 5px solid rgb(197, 193, 193);
+  padding: 0 1vw;
+}
+.descriptionContainer.isExpand{
+  min-height: 750px;
+}
+
+.list{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.list li{
+  height: auto;
+  width: 70%;
+}
+
+button{
+  background-color: rgb(19, 77, 19);
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  height: 5vh;
+  width: 8vw;
+  border-radius: 50px ;
+  color: white
+}
+

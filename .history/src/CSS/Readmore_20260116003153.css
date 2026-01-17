@@ -1,0 +1,25 @@
+.descriptionContainer{
+  display: block;
+  width: 20vw;
+  height: 500vh;
+  padding-top: 2.5vh;
+
+  background-color: rgb(3, 3, 3);
+  border: 5px solid rgb(197, 193, 193);
+  margin-bottom: 15vh;
+  padding: 0 1vw;
+}
+
+
+.list{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.list li{
+  height: auto;
+  width: 70%;
+}
+
+button{
+  float: bottom-right;
+}

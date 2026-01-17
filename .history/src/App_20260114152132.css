@@ -1,0 +1,7 @@
+.App {
+  background-color: rgb(212, 208, 208);
+  text-align: center;
+    background-image: url("./image/pho.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}

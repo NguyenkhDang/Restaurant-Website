@@ -1,0 +1,21 @@
+import "./CSS/Footer,css"
+const Footer = () =>{
+
+  return(
+    <div className="Footer">
+      <div>
+        <p>Lorem</p>
+      </div>
+      <div>
+        <p>Lorem</p>
+      </div>
+      <div>
+        <p>Lorem</p>
+      </div>
+
+    </div>
+  )
+
+}
+
+export default Footer

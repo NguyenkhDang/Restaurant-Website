@@ -1,0 +1,14 @@
+.containerMain{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.containerMain div{
+  text-align: center;
+  width: 45vw;
+  height: 50vh;
+}
+.containerMain div h1{
+  margin: auto;
+}

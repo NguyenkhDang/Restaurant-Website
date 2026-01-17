@@ -1,0 +1,21 @@
+.containerMain{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.containerMain div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 45vw;
+  height: 50vh;
+  margin: 10px;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border: 1px solid black;
+}
