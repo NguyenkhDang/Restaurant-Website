@@ -1,0 +1,48 @@
+.home {
+  display: grid;
+  margin: 0;
+  padding: 0;
+
+  background: radial-gradient(
+    circle,
+    rgba(245, 240, 213, 1) 0%,
+    rgba(38, 115, 42, 1) 100%
+  );
+  place-items: center;
+  text-align: center;
+  color: white;
+  overflow-y: hidden;
+}
+
+.menu {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  place-items: center;
+  gap: 5px;
+
+  width: 95vw;
+  height: 80vh;
+  margin: 0 2vw;
+
+  background-color: rgb(34, 29, 29);
+}
+
+.foodContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+  gap: 1vw;
+}
+
+.foodContainer div {
+  width: 20vw;
+  padding-top: 2.5vh;
+
+  background-color: rgb(3, 3, 3);
+  border: 5px solid rgb(197, 193, 193);
+}
+
+
+.home::-webkit-scrollbar {
+  display: none;
+}

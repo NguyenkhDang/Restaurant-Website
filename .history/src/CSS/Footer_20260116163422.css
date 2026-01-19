@@ -1,0 +1,10 @@
+.footer{
+  background-color: rgb(34, 29, 29);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100vw;
+}
+
+img{
+  
+}

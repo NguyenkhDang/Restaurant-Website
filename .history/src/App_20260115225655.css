@@ -1,0 +1,30 @@
+.home {
+  background: #f5f0d5;
+  background: radial-gradient(circle, rgba(245, 240, 213, 1) 0%, rgba(38, 115, 42, 1) 100%);
+  text-align: center;
+  color: white;
+  
+}
+.menu{
+  background-color: rgb(34, 29, 29);
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 80vh;
+  gap: 5px;
+  place-items: center;
+
+}
+
+.foodContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  place-items: center;
+  gap: 1vw;
+}
+
+.foodContainer div{
+  background-color: rgb(3, 3, 3);
+  width: 20vw;
+  padding-top: 2.5vh;
+  border: rgb(197, 193, 193) solid 5px;
+}

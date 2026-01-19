@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Restaurant-Website/static/css/main.558f541f.css",
+    "main.js": "/Restaurant-Website/static/js/main.2ed19d4b.js",
+    "static/js/453.5cd9d2f1.chunk.js": "/Restaurant-Website/static/js/453.5cd9d2f1.chunk.js",
+    "static/media/veganPho.jpg": "/Restaurant-Website/static/media/veganPho.deeb5cddb24f3259f490.jpg",
+    "static/media/pho.jpg": "/Restaurant-Website/static/media/pho.106bf83619b2fc9c7c75.jpg",
+    "static/media/Menu.png": "/Restaurant-Website/static/media/Menu.252595d74f1c753378d5.png",
+    "static/media/reservationImage.jpg": "/Restaurant-Website/static/media/reservationImage.b8954c27919e919bc854.jpg",
+    "static/media/menuImage.jpg": "/Restaurant-Website/static/media/menuImage.0ba2844f31aaedf43512.jpg",
+    "static/media/chickenPho.jpg": "/Restaurant-Website/static/media/chickenPho.f5902184bfc204319452.jpg",
+    "static/media/contactusImage.jpg": "/Restaurant-Website/static/media/contactusImage.b352ff70ac3e40824278.jpg",
+    "static/media/shrimpPho.png": "/Restaurant-Website/static/media/shrimpPho.07bfadc32d886ede64b6.png",
+    "static/media/aboutusImage.jpg": "/Restaurant-Website/static/media/aboutusImage.79c6fc155b0f8235d5e4.jpg",
+    "static/media/beefPho.png": "/Restaurant-Website/static/media/beefPho.f9d68f14c60b7fb41b6d.png",
+    "static/media/instagramIcon.png": "/Restaurant-Website/static/media/instagramIcon.6661272dbe409dcbf39d.png",
+    "static/media/CustomLogo2.png": "/Restaurant-Website/static/media/CustomLogo2.47a629750ed497253099.png",
+    "index.html": "/Restaurant-Website/index.html",
+    "main.558f541f.css.map": "/Restaurant-Website/static/css/main.558f541f.css.map",
+    "main.2ed19d4b.js.map": "/Restaurant-Website/static/js/main.2ed19d4b.js.map",
+    "453.5cd9d2f1.chunk.js.map": "/Restaurant-Website/static/js/453.5cd9d2f1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.558f541f.css",
+    "static/js/main.2ed19d4b.js"
+  ]
+}

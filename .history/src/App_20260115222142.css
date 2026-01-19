@@ -1,0 +1,21 @@
+.home {
+  background-color: rgb(165, 153, 153);
+  text-align: center;
+  
+}
+.menu{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 5px;
+
+}
+
+.foodContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.foodContainer div{
+
+}

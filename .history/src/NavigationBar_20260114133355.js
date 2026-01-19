@@ -1,0 +1,35 @@
+
+import Logo from "./image/CustomLogo.png"
+const NavigationBar = () =>{
+
+
+
+  return (
+    <div className="navbar">
+      <div className="logoImage">
+        <img src= {Logo} />
+      </div>
+      <div className="wholeNavBar">
+        <ul>
+          <li>
+            <a>Home</a>
+          </li>
+          <li>
+            <a>Menus</a>
+          </li>
+          <li>
+            <a>Home</a>
+          </li>
+          <li>
+            <a>Home</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  )
+
+
+}
+
+export default NavigationBar

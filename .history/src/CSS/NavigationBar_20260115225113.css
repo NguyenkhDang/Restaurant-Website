@@ -1,0 +1,36 @@
+.navbar{
+  background-color: rgb(34, 29, 29);
+  display: grid;
+  grid-template-columns: 25% 75%;
+  height: 25vh;
+}
+.wholeMavBar{
+  float: right;
+  height: 10vh;
+}
+
+.logoImage img{
+  height: 20vh;
+  width: 25vw;
+  object-fit: fill;
+  object-position: center;
+}
+
+ul{
+  align-items: center;
+  list-style-type: none;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 5%;
+  padding: 0;
+}
+li a{
+  font-size: 2em;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+li a:hover{
+  background-color: #c5b1b1;
+}

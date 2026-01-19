@@ -1,0 +1,21 @@
+.descriptionContainer{
+  width: 20vw;
+  padding-top: 2.5vh;
+
+  background-color: rgb(3, 3, 3);
+  border: 5px solid rgb(197, 193, 193);
+}
+
+
+.allergies{
+  display: block;
+  font-size: 1em;
+}
+.list{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.list li{
+  height: auto;
+  width: 70%;
+}

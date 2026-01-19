@@ -1,0 +1,12 @@
+.allergies{
+  display: block;
+  font-size: 1em;
+}
+.allergies ul{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.allergies ul li{
+  height: auto;
+  width: 70%;
+}
