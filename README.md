@@ -2,7 +2,7 @@ A responsive restaurant website built with React and React Router, featuring mul
 
 🔗 Live Demo:
 https://nguyenkhdang.github.io/Restaurant-Website
-
+(Initial rendering will not have the full component, click on Home at the top to make the app work)
 📌 Features
 <ul>
   <li>Multi-page navigation using React Router</li>
