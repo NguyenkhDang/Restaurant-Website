@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Restaurant-Website/static/css/main.558f541f.css",
-    "main.js": "/Restaurant-Website/static/js/main.2ed19d4b.js",
+    "main.js": "/Restaurant-Website/static/js/main.775bf9ba.js",
     "static/js/453.5cd9d2f1.chunk.js": "/Restaurant-Website/static/js/453.5cd9d2f1.chunk.js",
     "static/media/veganPho.jpg": "/Restaurant-Website/static/media/veganPho.deeb5cddb24f3259f490.jpg",
     "static/media/pho.jpg": "/Restaurant-Website/static/media/pho.106bf83619b2fc9c7c75.jpg",
@@ -17,11 +17,11 @@
     "static/media/CustomLogo2.png": "/Restaurant-Website/static/media/CustomLogo2.47a629750ed497253099.png",
     "index.html": "/Restaurant-Website/index.html",
     "main.558f541f.css.map": "/Restaurant-Website/static/css/main.558f541f.css.map",
-    "main.2ed19d4b.js.map": "/Restaurant-Website/static/js/main.2ed19d4b.js.map",
+    "main.775bf9ba.js.map": "/Restaurant-Website/static/js/main.775bf9ba.js.map",
     "453.5cd9d2f1.chunk.js.map": "/Restaurant-Website/static/js/453.5cd9d2f1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.558f541f.css",
-    "static/js/main.2ed19d4b.js"
+    "static/js/main.775bf9ba.js"
   ]
 }
