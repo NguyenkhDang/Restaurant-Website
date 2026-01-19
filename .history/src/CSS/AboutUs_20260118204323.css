@@ -1,0 +1,19 @@
+.aboutUs{
+  display: grid;
+  grid-template-columns: 40% auto;
+  background-color: rgb(34, 29, 29);;
+  height: 50vh;
+  width: 85vw;
+  margin: 3vh 0;
+}
+
+.aboutUs img{
+  width: 30vw;
+  height: 40vh;
+  margin: 1vw 0 0 1vw;
+}
+
+.aboutUs div{
+  align-self: start;
+  justify-self: start;
+}

@@ -1,0 +1,53 @@
+.navbar{
+  background-color: rgb(34, 29, 29);
+  display: grid;
+  grid-template-columns: 25% 75%;
+  width: 100vw;
+  height: 25vh;
+  padding-top: 5vh;
+}
+.wholeNavBar{
+  height: 10vh;
+}
+
+.logoImage img{
+  height: 20vh;
+  width: 25vw;
+  object-fit: fill;
+  object-position: center;
+}
+
+ul{
+  align-items: center;
+  list-style-type: none;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 5%;
+  padding: 0;
+}
+li a{
+  font-size: 2em;
+  text-align: center;
+  padding: 14px 16px;
+}
+.wholeNavBar ul li{
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #031D44;
+  padding: 20px 0px;
+  margin: 0px 20px;
+  display: inline-block;
+  position: relative;
+  opacity: 0.75;
+}
+
+.wholeNavBar ul li Link::before{
+  width: 0%;
+  bottom: 10px;
+}
+li a:hover{
+  background-color: #c5b1b1;
+}

@@ -1,0 +1,18 @@
+.reservationForm{
+  width: 80vw;
+}
+
+
+.form{
+  display: grid;
+  grid-template-rows: repeat(8, 1fr);
+  color: black;
+}
+
+.form fieldset{
+  background-color: blue;
+}
+button{
+  width: 20vw;
+  height: 20vh;
+}

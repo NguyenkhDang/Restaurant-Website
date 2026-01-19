@@ -1,0 +1,9 @@
+.form{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+button{
+  width: 20vw;
+  height: 20vh;
+}

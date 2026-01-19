@@ -1,0 +1,66 @@
+/* ===== NAVBAR CONTAINER ===== */
+.navbar {
+  background-color: rgb(34, 29, 29);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  padding: 1rem 2.5rem;
+  width: 100%;
+}
+
+/* ===== LOGO ===== */
+.logoImage img {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* ===== NAV LIST ===== */
+.navList {
+  list-style: none;
+  display: flex;
+  gap: 2.5rem;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== LINKS ===== */
+.nav-link {
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  position: relative;
+  opacity: 0.75;
+  transition: opacity 200ms ease;
+}
+
+.nav-link:hover {
+  opacity: 1;
+}
+
+/* ===== ACTIVE LINK ===== */
+.nav-link.active {
+  opacity: 1;
+}
+
+/* ===== HOVER ANIMATION ===== */
+.nav-link::before {
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background-color: #c1c7cf;
+  left: 0;
+  bottom: -8px;
+  opacity: 0;
+  transition: all 300ms ease;
+}
+
+.nav-link:hover::before {
+  bottom: -4px;
+  opacity: 1;
+}

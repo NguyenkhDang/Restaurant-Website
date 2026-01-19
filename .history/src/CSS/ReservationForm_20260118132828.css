@@ -1,0 +1,9 @@
+.ReservationForm{
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+}
+
+button{
+  width: 20vw;
+  height: 20vh;
+}

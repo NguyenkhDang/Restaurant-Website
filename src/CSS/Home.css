@@ -1,0 +1,27 @@
+.menu {
+  display: grid;
+  grid-template-rows: 0.10fr 0.15fr 1fr;
+  place-items: center;
+  gap: 5px;
+
+  width: 96vw;
+  height: auto;
+  margin: 0 2vw;
+
+  background-color: rgb(34, 29, 29);
+}
+
+.foodContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+  height: auto;
+  gap: 1vw;
+  padding: 0;
+}
+
+
+#label{
+  font-weight: bolder;
+  font-size: 1.25em;
+}

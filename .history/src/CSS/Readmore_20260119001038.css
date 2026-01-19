@@ -1,0 +1,56 @@
+.descriptionContainer{
+  display: block;
+  width: 20vw;
+  height: auto;
+  min-height: 650px;
+  padding-top: 2.5vh;
+  position: relative;
+  overflow: hidden;
+  transition: min-height 0.5s ease-in-out;
+  background-color: rgb(3, 3, 3);
+  border: 5px solid rgb(197, 193, 193);
+  padding: 0 1vw;
+  padding-bottom: 9vh;
+  margin-bottom: 50px ;
+}
+.descriptionContainer.isExpand{
+  min-height: auto;
+}
+.descriptionContainer img{
+  width: 20%;
+  height: 20%;
+  border-radius: 20px;
+}
+.list{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.list li{
+  height: auto;
+  width: 70%;
+}
+
+.btnShowMore{
+  background-color: rgb(19, 77, 19);
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  height: 5vh;
+  min-width: 110px;
+  width: auto;
+  border-radius: 50px ;
+  color: white;
+  padding: 0 1rem;
+}
+
+@media only screen and (max-width: 1440px){
+  .descriptionContainer{
+    height: auto;
+  }
+  .descriptionContainer h2{
+    font-size: 1em;
+  }
+  .descriptionContainer p{
+    font-size: 0.8em;
+  }
+}

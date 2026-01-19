@@ -1,0 +1,18 @@
+.contactUsPage{
+  background-color: gray;
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  width: 80vw;
+  height: 50vh;
+  margin: 2vh 0;
+}
+.contactUsPage fieldset{
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  place-items: center;
+  width: 70%;
+}
+
+.contactUsPage fieldset input{
+  width: 50vh;
+}
