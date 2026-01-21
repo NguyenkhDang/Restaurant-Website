@@ -6,7 +6,6 @@ https://nguyenkhdang.github.io/Restaurant-Website
 📌 Features
 <ul>
   <li>Multi-page navigation using React Router</li>
-  <li>Responsive layout for desktop and mobile</li>
   <li>Reusable components (Navigation Bar, Footer)</li>
   <ul>Dedicated pages:
     <li>Home</li>
